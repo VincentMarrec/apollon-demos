@@ -1,1 +1,1 @@
-# apollon-template
+# apollon-demos
