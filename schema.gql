@@ -1,3 +1,11 @@
 type Query {
-    hello: String!
+    dummy: String
+}
+
+type Mutation {
+    random: Float! @Trigger(name: "random_subscription") # Apply the "Trigger" directive to the mutation to trigger the subscrption
+}
+
+type Subscription {
+    random_subscription: Float!
 }
